@@ -1,0 +1,19 @@
+{
+  "name": "canopywatch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@turf/area": "^7.2.0",
+    "maplibre-gl": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
